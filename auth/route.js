@@ -1,5 +1,5 @@
 const express = require("express");
-const { adminAuth } = require("./middlewares/auth");
+const { adminAuth } = require("../middlewares/auth");
 const { register, login, update, deleteUser, getUsers } = require("./auth");
 const router = express.Router();
 
